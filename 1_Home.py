@@ -21,9 +21,7 @@ st.write("# DATASET OFICIAL FIFA 23! ⚽")
 st.sidebar.markdown("Aula da [Asimov Academy](https://www.youtube.com/watch?v=0lYBYYHBT5k&ab_channel=AsimovAcademy)")
 st.sidebar.markdown("Feito por [Ciro Menescal](https://github.com/Ciro125)")
 
-btn = st.button("Acesse os dados no Kaggle")
-if btn:
-    webbrowser.open_new_tab("https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data?resource=download")
+st.markdown("### [Acesse os dados no Kaggle](https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data?resource=download)")
 
 st.markdown(
     """
